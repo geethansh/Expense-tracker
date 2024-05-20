@@ -1,0 +1,46 @@
+/* signup.css */
+.responsive-bg {
+    background: rgb(255, 213, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 16px;
+  }
+  .header{
+    background: rgb(255, 213, 79);
+  }
+  
+  .responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+  }
+  
+  .responsive-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-title {
+      font-size: 2.5rem;
+    }
+  
+    .responsive-container {
+      max-width: 600px; /* Adjust this width as needed */
+      padding: 64px;
+    }
+  }
+  

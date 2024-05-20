@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+ /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,10 +25,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} 
 
-@layer utilities {
+ @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}  */
+
+body {
+  font-family: 'Victor Mono', monospace; /* Apply Victor Mono to the entire body */
+  /* background-image: url('./images/gold-growing-arrow-with-gold-coin-money-stacks-gold-bar-business-finance-savings-investment-concept-background-3d-illustration.jpg'); */
+  /* background: linear-gradient(45deg, #8a7967, #ffd700); */
+
 }
+
