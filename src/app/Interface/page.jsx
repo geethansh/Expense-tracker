@@ -24,18 +24,8 @@ import { Victor_Mono } from "next/font/google";
 import { Text } from "@chakra-ui/react";
 import LogoutIcon from '@mui/icons-material/Logout';
 import './interface.css'
-import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  ChakraProvider
-} from "@chakra-ui/react";
 import Router, { useRouter } from "next/navigation";
-import Footer from "./footerMain";
+
 
 ChartJS.register(
   CategoryScale,
@@ -237,7 +227,7 @@ const ExpenseCalculator = () => {
       )}
       </div>
       
-      {/* <Footer/> */}
+      
 
       
       
