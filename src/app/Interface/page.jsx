@@ -219,7 +219,7 @@ const ExpenseCalculator = () => {
         handleCloseGoalCompletedMessage={handleCloseGoalCompletedMessage}
       />
       {showChart && chartData && (
-        <div className=" w-[62rem] h-[30rem] mt-12 outline ml-[54rem] -mr-96 bg-amber-300 mb-20 rounded absolute">
+        <div className=" w-[50%] h-[52%] mt-12 outline ml-[54rem] -mr-96 bg-amber-300 mb-20 rounded absolute">
           <Text fontSize="xl" mb={4} fontFamily={victor_mono}>
             {chartData.labels[0]} Chart
           </Text>

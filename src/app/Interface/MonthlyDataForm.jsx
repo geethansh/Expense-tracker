@@ -24,7 +24,7 @@ const MonthlyDataForm = ({
 }) => {
   return (
     <ChakraProvider>
-    <Stack spacing={4} p={4} borderRadius="md" boxShadow="md" bg="white" className='outline mt-3 ml-3 mr-3 flex flex-col items-center justify-center w-[35rem] h-[28rem] bg-amber-300'>
+    <Stack spacing={4} p={4} borderRadius="md" boxShadow="md" bg="white" className='outline mt-3 ml-3 mr-3 flex flex-col items-center justify-center w-[30%] h-[22%] bg-amber-300'>
       <div className=' mb-4 text-2xl font-extrabold'>
         Monthly Expense Calculator
       </div>
