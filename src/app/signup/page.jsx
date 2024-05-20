@@ -108,7 +108,7 @@ const SignupPage = () => {
 
   return (
     <ChakraProvider>
-      <div className="bg-amber-300">
+      <div className="bg-amber-300 min-h-[100vh]">
       <header className='flex justify-between items-center px-4 py-2 header'>
             <div className="font-extrabold text-3xl md:text-5xl">
               SPENDWISE
