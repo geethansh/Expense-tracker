@@ -1,4 +1,4 @@
-/* signup.css */
+
 .responsive-bg {
     background: rgb(255, 213, 79);
     display: flex;
@@ -39,7 +39,7 @@
     }
   
     .responsive-container {
-      max-width: 600px; /* Adjust this width as needed */
+      max-width: 600px;
       padding: 64px;
     }
   }

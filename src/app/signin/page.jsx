@@ -63,7 +63,7 @@ const SigninPage = () => {
               SPENDWISE
             </div>
             </header>
-      <form onSubmit={handleSubmit} className='flex items-center justify-center pt-12'>
+      <form onSubmit={handleSubmit} className='flex items-center justify-center '>
         <div className='flex flex-col items-center h-[25rem] w-[30rem] outline mt-36 bg-white rounded-md'>
           <div className='text-5xl font-bold mt-10 mb-10'>Sign In</div>
           <div className='mt-4 outline rounded-md'>

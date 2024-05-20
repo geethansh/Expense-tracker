@@ -1,4 +1,3 @@
-// use client
 import React from 'react';
 import {
   Box,
@@ -21,7 +20,7 @@ const FinancialGoal = ({
 }) => {
   return (
     <ChakraProvider>
-    <Box p={3} borderRadius="md" boxShadow="lg" bg="white" className='outline flex w-[50rem] flex-col items-center justify-center ml-1 mt-12 absolute bg-amber-300 h-[30rem]'>
+    <Box p={3} borderRadius="md" boxShadow="lg" bg="white" className='outline flex w-[50rem] flex-col items-center justify-center ml-1 mt-12 absolute bg-amber-100 h-[30rem]'>
       <Heading as="h2" size="xl" mb={4} textAlign="center" fontFamily={victor_mono}>
         Financial Goal
       </Heading>

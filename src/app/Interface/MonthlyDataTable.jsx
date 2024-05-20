@@ -1,4 +1,4 @@
-// use client
+
 import React from 'react';
 import {
   Table,
@@ -27,7 +27,7 @@ const MonthlyDataTable = ({
 }) => {
   return (
      <ChakraProvider>
-    <Stack spacing={4} p={4} borderRadius="md" boxShadow="lg" bg="white" className='outline w-[65%] h-[35rem] bg-amber-300 mt-3 ml-5' >
+    <Stack spacing={4} p={4} borderRadius="md" boxShadow="lg" bg="white" className='outline w-[65%] h-[35rem] bg-amber-100 mt-3 ml-5' >
       <div className=' mb-4 text-2xl font-extrabold'>
         Summary of All Months
       </div>

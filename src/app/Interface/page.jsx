@@ -187,7 +187,7 @@ const ExpenseCalculator = () => {
         />
       </div>
       <div className="  flex flex-row ml-3 ">
-        <div className="flex-col outline h-[100%] w-[30%]  -mt-20 bg-amber-300 rounded-md ">
+        <div className="flex-col outline h-[100%] w-[30%]  -mt-20 bg-amber-100 rounded-md ">
           <Text fontSize="xl" mb={4} fontFamily={victor_mono} align='center'>
             Total Income: {totalIncome}
           </Text>
@@ -209,7 +209,7 @@ const ExpenseCalculator = () => {
         handleCloseGoalCompletedMessage={handleCloseGoalCompletedMessage}
       />
       {showChart && chartData && (
-        <div className=" w-[50%] h-[52%] mt-12 outline ml-[54rem] -mr-96 bg-amber-300 mb-20 rounded absolute">
+        <div className=" w-[50%] h-[52%] mt-12 outline ml-[54rem] -mr-96 bg-amber-100 mb-20 rounded absolute">
           <Text fontSize="xl" mb={4} fontFamily={victor_mono}>
             {chartData.labels[0]} Chart
           </Text>
