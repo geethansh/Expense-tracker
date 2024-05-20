@@ -119,7 +119,6 @@ const SignupPage = () => {
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
-        minHeight="100vh"
         className="responsive-bg "
       >
         <form onSubmit={handleSubmit}>
