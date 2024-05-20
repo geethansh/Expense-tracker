@@ -124,7 +124,7 @@ const SignupPage = () => {
       >
         <form onSubmit={handleSubmit}>
           <Box
-            className="responsive-container outline mb-48"
+            className="responsive-container outline "
             bg="white"
             p={8}
             borderRadius="md"
@@ -134,19 +134,19 @@ const SignupPage = () => {
               Create Your Account
             </div>
 
-            <FormControl id="Name" isRequired mb={5}>
+            <FormControl id="Name" isRequired mb={3}>
               <FormLabel>Name</FormLabel>
               <div className="outline rounded-md">
                 <Input type="text" focusBorderColor="red.300" placeholder="John Doe" />
               </div>
             </FormControl>
-            <FormControl id="Phone" mb={5}>
+            <FormControl id="Phone" mb={3}>
               <FormLabel>Phone Number</FormLabel>
               <div className="outline rounded-md">
                 <Input type="tel" focusBorderColor="red.300" placeholder="9999999999"/>
               </div>
             </FormControl>
-            <FormControl id="email" isRequired mb={5} isInvalid={!!emailError}>
+            <FormControl id="email" isRequired mb={3} isInvalid={!!emailError}>
               <FormLabel>Email</FormLabel>
               <div className="outline rounded-md">
                 <Input
@@ -162,7 +162,7 @@ const SignupPage = () => {
             <FormControl
               id="password"
               isRequired
-              mb={5}
+              mb={3}
               isInvalid={!!passwordError}
             >
               <FormLabel>Password</FormLabel>
@@ -180,7 +180,7 @@ const SignupPage = () => {
             <FormControl
               id="confirmPassword"
               isRequired
-              mb={5}
+              mb={3}
               isInvalid={!!confirmPasswordError}
             >
               <FormLabel>Confirm Password</FormLabel>
@@ -227,10 +227,10 @@ const SignupPage = () => {
         
         
       </Box>
-      <div className="-mt-[32rem] ">
+      
         <Footer/>
 
-        </div>
+        
       </div>
       
       
