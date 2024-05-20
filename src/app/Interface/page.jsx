@@ -197,7 +197,7 @@ const ExpenseCalculator = () => {
         />
       </div>
       <div className="  flex flex-row ml-3 ">
-        <div className="flex-col outline h-[5rem] w-[35rem]  -mt-20 bg-amber-300 rounded-md ">
+        <div className="flex-col outline h-[100%] w-[30%]  -mt-20 bg-amber-300 rounded-md ">
           <Text fontSize="xl" mb={4} fontFamily={victor_mono} align='center'>
             Total Income: {totalIncome}
           </Text>
