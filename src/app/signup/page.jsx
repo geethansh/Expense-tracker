@@ -125,7 +125,7 @@ const SignupPage = () => {
           <Box
             className="responsive-container outline "
             bg="white"
-            p={8}
+            p={6}
             borderRadius="md"
             boxShadow="lg"
           >

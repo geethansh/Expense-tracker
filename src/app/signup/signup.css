@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     
-    padding: 16px;
+    
   }
   .header{
     background: rgb(255, 213, 79);
@@ -45,4 +45,3 @@
       padding: 64px;
     }
   }
-  
