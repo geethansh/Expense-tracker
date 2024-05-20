@@ -45,7 +45,7 @@ const SigninPage = () => {
       const hashedPassword = await hashPassword(password);
       if (email === signUpData.email && hashedPassword === signUpData.password) {
         setError('');
-        alert('Sign in successful');
+        
         router.push('Interface');
       } else {
         setError('Incorrect credentials');
