@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="border z-10 border-t-[#33353F]  border-r-transparent mt-[28rem]">
+    <footer className="border z-10 border-t-[#33353F]  border-r-transparent fixed bottom-0 w-[100%]">
       <div className="p-2 flex justify-between">
         <p className="text-slate-600 pl-11 pt-3">Made By Geethansh P</p>
         <Link href="https://github.com/geethansh/Expense-tracker">

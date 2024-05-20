@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <ChakraProvider>
       <main className='relative min-h-screen bg-gradient-to-br from-yellow-400 to-rose-100'>
-        <div className='flex flex-col justify-between h-full'>
+        <div className='flex flex-col justify-between h-full w-full'>
           
           <header className='flex justify-between items-center px-4 py-2'>
             <div className="font-extrabold text-3xl md:text-5xl">
@@ -29,15 +29,16 @@ export default function Home() {
           </header>
 
           
-          <section className='flex flex-col items-center justify-center mt-[17.5rem] px-4'>
+          <section className='flex flex-col items-center justify-center px-4 min-h-[80vh]'>
             <div className='text-4xl md:text-6xl text-center font-extrabold'>
               Master Your Money: Track Expenses with Ease!
             </div>
           </section>
 
           
-          <Footer />
+          
         </div>
+        <Footer />
       </main>
     </ChakraProvider>
   );
